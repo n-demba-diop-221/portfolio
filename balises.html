@@ -1,0 +1,127 @@
+<!Doctype html>
+<html>
+	<head>
+			<title></title>
+			<meta charset="utf-8">
+	</head>
+	<body>
+<h1>Bienvenue dans l'univers du web.</h1>
+<h2>Je suis le titres de ces 3 phrases.</h2>
+Je suis la phrase 1.<br>
+Jre suis la phrase 2<br>
+Je suis la phrase 3.
+
+<h2>Je suis le titre de ces 3 paragraphes</h2>
+<p>Je suis le paragraphe 1</p>
+<p>Je suis le paragraphe 2</p>
+<p>Je suis le paragraphe 3</p>
+
+<h2>Les niveaux de valeurs</h2>
+Je suis une phrase simple.<br>
+<em>Je suis  une phrase importante.</em><br>
+<strong>Je suis  une phrase très importante.</strong>
+
+<h2>Affichage d'un fichier audio</h2>
+<audio src="son.mp3" controls></audio>
+
+<h2>Affichage d'une vidéo</h2>
+<video src="video.mp4" controls></video>
+
+<h2>Affichage d'une image</h2>
+<img src="image.jpg" width="500">
+
+<h2>Les listes</h2>
+<h3>Liste ordonnée</h3>
+<ol>
+<li>Ordinateur</li>
+<li>Editeur</li>
+<li>Navigateur</li>
+</ol>
+<h3>Liste non ordonnée</h3>
+<ul>
+	<li>Tablette</li>
+	<li>Téléphone </li>
+	<li>TV</li>
+</ul>
+
+<h2>Les liens</h2>
+<h3>Lien relatif</h3>
+<a href="page2.html">Cliquez ici pour acceder à la page 2</a>
+
+<h3>Lien absolu</h3>
+<a href="https://www.youtube.com">Cliquez ici pour aller sur YouTube</a>
+
+<h3>Lien de téléchargement</h3>
+<a href="fichier.docx">Cliquez ici pour télécharger le fichier </a>
+
+<h2>Tableaux</h2>
+<table border="1" width="500" height="200">
+	<tr>
+		<td>A</td> <td>B</td>
+	</tr>
+	<tr>
+		<td>C</td> <td>D</td>
+	</tr>
+</table>
+
+<h3>Fusion horizontale</h3>
+<table border="1">
+	<tr>
+		<td>Produits</td> <td colspan="2">Prix</td>
+	</tr>
+
+	<tr>
+		<td>Ordinateur</td> <td>25 000</td> <td>150 000</td>
+	</tr>
+</table>
+
+<h3>Fusion verticale</h3>
+<table border="1">
+	<tr>
+		<td>Produit</td> <td rowspan="2">Prix</td> <td>250 000</td>
+	</tr>
+	<tr>
+		<td>Ordinateur</td>  <td>150 000</td>
+	</tr>
+</table>
+
+<h2>FORMULAIRE</h2>
+<form name="formulaire" method="post" action="fichier.php">
+	Nom et prénom :<input name="nom-prenom" type="text"><br><br>
+
+	Mot de passe :<input name="mdp" type="password"><br><br>
+
+	Adresse :<input name="adresse" type="text"><br><br>
+
+	Téléphone :<input name="telephone" type="tel"><br><br>
+
+	Email :<input name="email" type="email"><br><br>
+
+	Message :<textarea name="message" cols="45" rows="7"></textarea><br><br>
+
+	<input type="radio" name="sexe" value="homme">Homme
+	<input type="radio" name="sexe" value="femme">Femme <br><br>
+
+	<input name="html" type="checkbox">HTML
+	<input name="css" type="checkbox">CSS <br><br>
+
+	Les 7 jours de la semaine
+	<select>
+		<option>Semaine</option>
+		<option>Lundi</option>
+		<option>Mardi</option>
+		<option>Mercredi</option>
+		<option>Jeudi</option>
+		<option>Vendredi</option>
+		<option>Samedi</option>
+		<option>Dimanche</option>
+	</select> <br><br>
+
+	Votre photo :<input name="photo" type="file"> <br><br>
+
+	<input name="envoyer" type="submit" value="Valider">
+</form>
+
+	</body>
+</html>
+
